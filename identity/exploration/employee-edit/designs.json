@@ -1,0 +1,132 @@
+{
+  "pageId": "3607:4453",
+  "kitId": "3609:4453",
+  "iconBoardId": "3609:5563",
+  "icons": [
+    {
+      "id": "3609:5566",
+      "key": "icon-01",
+      "name": "01 / Signature"
+    },
+    {
+      "id": "3609:5655",
+      "key": "icon-02",
+      "name": "02 / Green edge"
+    },
+    {
+      "id": "3609:5747",
+      "key": "icon-dark",
+      "name": "Dark / Signature appearance"
+    }
+  ],
+  "scenes": [
+    {
+      "key": "01 / Практика",
+      "id": "3609:4602",
+      "name": "Практика",
+      "kind": "work",
+      "saved": false,
+      "expanded": false
+    },
+    {
+      "key": "02",
+      "id": "3609:4771",
+      "name": "Разбор",
+      "kind": "analysis"
+    },
+    {
+      "key": "03",
+      "id": "3609:4916",
+      "name": "Команда",
+      "kind": "question"
+    },
+    {
+      "key": "04 / Подпись раскрыта",
+      "id": "3609:5061",
+      "name": "Подпись раскрыта",
+      "kind": "work",
+      "saved": false,
+      "expanded": true
+    },
+    {
+      "key": "05 / Работа сохранена",
+      "id": "3609:5203",
+      "name": "Работа сохранена",
+      "kind": "work",
+      "saved": true,
+      "expanded": false
+    },
+    {
+      "key": "07 / Раскрыто и сохранено",
+      "id": "3609:5345",
+      "name": "Раскрыто и сохранено",
+      "kind": "work",
+      "saved": true,
+      "expanded": true
+    },
+    {
+      "key": "06",
+      "id": "3609:5487",
+      "name": "Обсуждение",
+      "kind": "discussion"
+    }
+  ],
+  "sharedComponents": {
+    "header": "3609:4454",
+    "nav": "3609:4489",
+    "stories": "3609:4546"
+  },
+  "flow": {
+    "main": "3609:4602",
+    "expanded": "3609:5061",
+    "saved": "3609:5203",
+    "expandedSaved": "3609:5345",
+    "discussion": "3609:5487",
+    "discussionPanel": "3609:5522"
+  },
+  "expandedContentIds": [
+    "3609:5101",
+    "3609:5385"
+  ],
+  "prototypeLinks": 13,
+  "version": "employee-edit-2026-10-18",
+  "status": "design-review-not-native-release",
+  "researchFile": "docs/management/LE_API_EMPLOYEE_DESIGN_EDIT_2026-10-18.md",
+  "fullContentId": "3611:5520",
+  "primaryScreens": [
+    "01",
+    "02",
+    "03"
+  ],
+  "identity": "Exact outlined Manrope wordmark and original bee",
+  "references": [
+    {
+      "name": "REVOLVE Q2 2026",
+      "url": "https://investors.revolve.com/news/news-details/2026/Revolve-Group-Announces-Second-Quarter-2026-Financial-Results/default.aspx"
+    },
+    {
+      "name": "REVOLVE US app",
+      "url": "https://apps.apple.com/us/app/revolve/id377018720"
+    },
+    {
+      "name": "LTK company",
+      "url": "https://company.shopltk.com/en/company"
+    },
+    {
+      "name": "LTK US app",
+      "url": "https://apps.apple.com/us/app/ltk-shop-trusted-recs/id1154027990"
+    },
+    {
+      "name": "SSENSE US app",
+      "url": "https://apps.apple.com/us/app/ssense-shop-designer-fashion/id1418754101"
+    },
+    {
+      "name": "Whering US app",
+      "url": "https://apps.apple.com/us/app/whering-your-digital-closet/id1519461680"
+    },
+    {
+      "name": "Indyx US app",
+      "url": "https://apps.apple.com/us/app/indyx-wardrobe-outfit-app/id1599179405"
+    }
+  ]
+}
