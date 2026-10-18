@@ -1,0 +1,12 @@
+{
+  "status": "proposal",
+  "selectedOriginal": "../logo-02.svg",
+  "selectedOriginalSha256": "9a8f588320b7967e63017af70d2b0670800bb0aa4b5d1f1b28bd0fd60ba9b13e",
+  "figmaBoard": "3571:4693",
+  "font": "Manrope Medium / OFL",
+  "kerning": "outlined glyphs: l0, e17.4, a85.2, p138.2, dotless i194; at92px master",
+  "beeAxis": 198.094,
+  "primaryProposal": "refined-a.svg",
+  "colorRecommendation": "neutral lettering + warm bee; green02 #0B2119 as environment",
+  "nativeAppChanged": false
+}
