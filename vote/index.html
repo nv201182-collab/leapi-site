@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#06110C">
+<meta name="referrer" content="no-referrer">
+<meta name="robots" content="noindex,nofollow">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; font-src 'self'; img-src 'self' https://avrtxtevrkckywptiiwb.supabase.co; connect-src https://avrtxtevrkckywptiiwb.supabase.co; base-uri 'none'; form-action 'none'">
+<title>Выбор клиентов — Le API</title>
+<link rel="icon" href="/leapi-site/assets/le-api-logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/leapi-site/vote/styles.css">
+<script src="/leapi-site/vote/script.js" defer></script>
+</head>
+<body>
+<main>
+<header><img src="/leapi-site/assets/le-api-logo.svg" alt="Le API" width="116" height="72"><p class="eyebrow">Выбор клиентов</p></header>
+<section id="intro"><p class="test-label">Пробное голосование</p><h1>Ваш голос<br>вдохновляет</h1><p class="lead">Выберите работу, которая вам понравилась.<br>Спасибо, что поддерживаете наших мастеров.</p></section>
+<p id="notice" class="notice" role="status" aria-live="polite">Открываем ваше приглашение…</p>
+<section id="ballot" hidden>
+<fieldset><legend class="sr-only">Выберите одну работу</legend><div id="works" class="works"></div></fieldset>
+<button id="review" class="primary" type="button" disabled>Подтвердить выбор</button>
+<p class="fineprint">Можно выбрать одну работу. После подтверждения изменить голос нельзя.</p>
+</section>
+<section id="thanks" class="thanks" hidden aria-live="polite"><div class="seal" aria-hidden="true">✓</div><h1 id="thanks-title">Спасибо за ваш голос!</h1><p>Ваше участие очень ценно.<br>Спасибо, что поддержали наших мастеров.</p><p class="receipt">Ваш голос учтён</p></section>
+<p class="test-note">Это пробное голосование с работами из Le API. Голоса сохраняются отдельно и не влияют на официальные итоги конкурса.</p>
+<footer>© 2026 Le API</footer>
+</main>
+<dialog id="confirm" aria-labelledby="confirm-title" aria-describedby="confirm-copy">
+<div class="dialog-inner"><h2 id="confirm-title">Подтвердить голос?</h2><img id="chosen-photo" alt="Выбранная работа" width="240" height="200"><p id="confirm-copy"></p><p class="fineprint">После подтверждения изменить выбор нельзя.</p><p id="send-error" role="alert" hidden></p><button id="send" class="primary" type="button">Да, проголосовать</button><button id="cancel" class="secondary" type="button" autofocus>Вернуться к работам</button></div>
+</dialog>
+</body>
+</html>
