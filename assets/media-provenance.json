@@ -14,5 +14,14 @@
     "retrieved": "2026-10-18",
     "purpose": "Responsive smaller rendition of the same licensed stock photograph",
     "alterations": "None; responsive display cropping only"
+  },
+  "manicure-fashion-bryony.jpg": {
+    "photographer": "Bryony Elena",
+    "source": "https://unsplash.com/photos/hand-with-black-and-tortoiseshell-nails-tXwBDZS2JxQ",
+    "license": "https://unsplash.com/license",
+    "existingAppPost": "demo-20261002-nails-contest",
+    "purpose": "Existing approved fashion demonstration photo requested by owner; no attribution as employee work",
+    "alterations": "Original existing app asset; responsive CSS crop only",
+    "retrieved": "2026-10-18"
   }
 }
