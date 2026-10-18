@@ -1,0 +1,107 @@
+{
+  "version": "0.9",
+  "date": "2026-10-18",
+  "status": "owner-review",
+  "brandSpelling": "le api",
+  "approvedColor": {
+    "hex": "#0F251D",
+    "palette": "dark-5/02",
+    "approvedBy": "Vladislav"
+  },
+  "proposedCopper": "#B57C52",
+  "typography": {
+    "base": "Manrope Regular400",
+    "wordmark": "outlined custom placement; p descender shortened",
+    "outlineRequired": true,
+    "glyphXs": [
+      0,
+      16.06200008392334,
+      83.2482572555542,
+      135.45425930023194,
+      190.14426250457765
+    ],
+    "lAscender": 17.94,
+    "pDescender": 17.5,
+    "baseline": 67.62,
+    "stem": 6.76200008392334
+  },
+  "bee": {
+    "sourceContours": 15,
+    "scale": 0.72,
+    "axis": 193.52526254653932,
+    "gap": 6,
+    "strokeBeforeScale": 1
+  },
+  "clearSpace": {
+    "unit": 6.76200008392334,
+    "minimum": 13.52400016784668,
+    "svgIncludes": true
+  },
+  "minSize": {
+    "recommendedCssWidth": 320,
+    "status": "physical validation pending"
+  },
+  "colors": {
+    "green": "#0F251D",
+    "copper": "#B57C52",
+    "white": "#FFFFFF",
+    "surface": "#F6F6F4",
+    "text": "#202421",
+    "secondary": "#656962"
+  },
+  "figma": [
+    {
+      "id": "3581:4693",
+      "title": "le api"
+    },
+    {
+      "id": "3581:4727",
+      "title": "Характер и смысл"
+    },
+    {
+      "id": "3581:4759",
+      "title": "Типографическое решение"
+    },
+    {
+      "id": "3581:4791",
+      "title": "Построение и интервалы"
+    },
+    {
+      "id": "3581:4826",
+      "title": "Пчела"
+    },
+    {
+      "id": "3581:4858",
+      "title": "Цветовая система"
+    },
+    {
+      "id": "3581:4871",
+      "title": "Исполнения"
+    },
+    {
+      "id": "3581:4931",
+      "title": "Охранное поле"
+    },
+    {
+      "id": "3581:4966",
+      "title": "Масштаб и воспроизведение"
+    },
+    {
+      "id": "3581:5025",
+      "title": "Шрифты вне логотипа"
+    },
+    {
+      "id": "3581:5057",
+      "title": "Светлая среда"
+    },
+    {
+      "id": "3581:5089",
+      "title": "Контроль применения"
+    }
+  ],
+  "boundaries": {
+    "nativeAppChanged": false,
+    "currentHomepageChanged": false,
+    "trademarkClearance": false
+  }
+}
