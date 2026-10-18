@@ -1,0 +1,18 @@
+{
+  "manicure-nude-cottonbro.jpg": {
+    "photographer": "cottonbro studio",
+    "source": "https://www.pexels.com/photo/photo-of-a-woman-s-hands-6941115/",
+    "license": "https://www.pexels.com/license/",
+    "retrieved": "2026-10-18",
+    "purpose": "Licensed stock illustration of manicure; not claimed as Le API member work",
+    "alterations": "None; responsive display cropping only"
+  },
+  "manicure-nude-cottonbro-1200.jpg": {
+    "photographer": "cottonbro studio",
+    "source": "https://www.pexels.com/photo/photo-of-a-woman-s-hands-6941115/",
+    "license": "https://www.pexels.com/license/",
+    "retrieved": "2026-10-18",
+    "purpose": "Responsive smaller rendition of the same licensed stock photograph",
+    "alterations": "None; responsive display cropping only"
+  }
+}
