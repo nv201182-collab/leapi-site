@@ -1,7 +1,7 @@
 (() => {
   'use strict';
   const root = document.documentElement;
-  const card = document.querySelector('.composition');
+  const card = document.querySelector('.editorial-photo');
   const reduce = matchMedia('(prefers-reduced-motion: reduce)');
   const fine = matchMedia('(hover: hover) and (pointer: fine)');
   let frame = 0;
@@ -26,8 +26,8 @@
       const r = card.getBoundingClientRect();
       const x = Math.max(0, Math.min(1, (event.clientX - r.left) / r.width));
       const y = Math.max(0, Math.min(1, (event.clientY - r.top) / r.height));
-      card.style.setProperty('--rx', ((.5 - y) * 6).toFixed(2) + 'deg');
-      card.style.setProperty('--ry', ((x - .5) * 8).toFixed(2) + 'deg');
+      card.style.setProperty('--rx', ((.5 - y) * 2).toFixed(2) + 'deg');
+      card.style.setProperty('--ry', ((x - .5) * 3).toFixed(2) + 'deg');
       card.style.setProperty('--mx', (x * 100).toFixed(1) + '%');
       card.style.setProperty('--my', (y * 100).toFixed(1) + '%');
     });
