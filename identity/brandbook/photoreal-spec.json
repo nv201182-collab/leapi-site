@@ -1,0 +1,12 @@
+{
+  "type": "generated photorealistic concept",
+  "master": "le-api-light.svg",
+  "images": [
+    "photoreal-hero.jpg",
+    "photoreal-stationery.jpg",
+    "photoreal-application.jpg"
+  ],
+  "nativeAppChanged": false,
+  "manufacturingProof": false,
+  "pages": 15
+}
