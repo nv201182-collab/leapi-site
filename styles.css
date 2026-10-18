@@ -33,3 +33,9 @@ footer{position:relative;min-height:72px;padding:16px 24px max(26px,env(safe-are
 .orbit{animation:none;will-change:auto}.orbit-one{transform:rotateX(64deg) rotateY(-14deg) rotateZ(8deg)}.orbit-two{transform:rotateX(72deg) rotateY(28deg) rotateZ(30deg)}.orbit-three{transform:rotateX(48deg) rotateY(-30deg) rotateZ(50deg)}.orbit-one img{display:none;animation:none}.orbit-scene{animation:glass-arrive 1.2s ease-out both}@keyframes glass-arrive{from{opacity:0}to{opacity:1}}
 @media(max-width:600px){.orbit-scene{display:none}.aura{display:none}.ambience{background:radial-gradient(ellipse at 50% 18%,#0e44332b,transparent 70%)}.composition{backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);box-shadow:inset 0 1px 0 #ffffff12,0 20px 60px #03140d22}.composition,.wordmark,h1{transform:none!important}}
 @media(prefers-reduced-motion:reduce){.orbit-scene{animation:none}}
+
+/* Decorative bee stays anchored to the card, never travels around the screen. */
+.brand-bee{position:absolute;right:20px;top:22px;width:24px;height:32px;pointer-events:none;opacity:.78;animation:bee-breathe 14s ease-in-out infinite;transform-origin:50% 55%}
+@keyframes bee-breathe{0%,100%{transform:translateY(0) rotate(-1deg)}50%{transform:translateY(-3px) rotate(1deg)}}
+[data-motion=paused] .brand-bee{animation-play-state:paused}
+@media(prefers-reduced-motion:reduce){.brand-bee{animation:none;transform:none}}
